@@ -1,0 +1,24 @@
+{
+  "name": "checkadn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha --reporter spec",
+    "test:coverage": "nyc --reporter=text mocha"
+  },
+  "author": "Fernando Gomez",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
